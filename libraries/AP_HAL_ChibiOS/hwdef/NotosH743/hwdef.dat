@@ -1,0 +1,16 @@
+
+include commmon.inc
+
+# ChibiOS system timer
+STM32_ST_USE_TIMER 2
+
+# Debug console
+
+# Default all pins to low to avoid ESD issues
+DEFAULTGPIO OUTPUT LOW PULLDOWN
+
+# Telem
+
+# VTX
+
+
